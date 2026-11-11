@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    for(int i=1; i<=5; i++){
+        for(int j=1; j<=i; j++)
+        cout<<" ";
+        for(int k=5; k>=i-1; k--)
+        cout<<7-i<<" ";
+    cout<<endl;
+    }
+    for(int l=1; l<=6; l++){
+        for(int m=6; m>=l; m--)
+        cout<<" ";
+        for(int n=1; n<=l; n++)
+        cout<<l<<" ";
+    cout<<endl;
+    }
+}
